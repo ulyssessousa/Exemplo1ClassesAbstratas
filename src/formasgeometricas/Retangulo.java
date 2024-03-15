@@ -33,6 +33,11 @@ public class Retangulo extends FormaGeometrica {
 	public void setAltura(double altura) {
 		this.altura = altura;
 	}
+
+	@Override
+	public double calcularPerimetro() {
+		return 2 * base + 2 * altura;
+	}
 	
 	
 	
